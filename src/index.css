@@ -27,12 +27,6 @@ h2 {
 
 .screening {
   font-size: 13px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.screening h4 {
-  margin: 10px 0px;
 }
 
 .screening .showtimes {
@@ -44,6 +38,28 @@ h2 {
   font-size: 12px;
 }
 
+.showtimes-button button {
+  margin-top: 18px;
+   border: none;
+   background: transparent;
+   color: #136CB0;
+}
+
+.showtimes-button button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.showtimes {
+  width: 100%;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .get-showtimes-button {
   margin-top: 20px;
   color: white;
@@ -51,4 +67,21 @@ h2 {
   text-align: center;
   padding-top: 15px;
   height: 30px;
+}
+
+.show {
+  display: contents;
+}
+
+.hide {
+  display: none;
+}
+
+/* ***************  */
+
+.skeleton {
+  background-image: url('skeleton.jpg');
+  background-size: contain;
+  height: 300px;
+  width: 300px;
 }
